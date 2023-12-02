@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submission Dasar Pemrograman Web - Mastuhin</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron">
+        <h1>Liverpool FC</h1>
+        <p>You'll Never Walk Alone.</p>
+        <a href="https://www.liverpoolfc.com/" target="_blank">
+          <img src="assets/image/liverpool-logo.png" title="Situs resmi klub" width="300px" alt="logo" />
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="assets/image/liverpool-logo.png" width="25px" alt="logo" />
+            </a>
+          </li>
+          <li><a href="#sejarah">Sejarah</a></li>
+          <li><a href="#stadion">Stadion</a></li>
+          <li><a id="switch" onclick="switchMode()">Dark Mode</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="content">
+        <article id="sejarah" class="card">
+          <h2>Sejarah</h2>
+          <img src="assets/image/sejarah-liverpool.jpg" class="featured-image" alt="sejarah" />
+          <p>
+            Klub Sepak Bola Liverpool adalah salah satu klub sepak bola paling terkenal dan sukses di dunia. Klub ini didirikan pada tahun 1892 dan bermarkas di Anfield, Liverpool, Inggris.
+          </p>
+          <p>
+            Sejarah Liverpool dimulai pada tahun 1892 ketika klub ini didirikan oleh John Houlding, seorang pengusaha lokal yang memiliki lapangan sepak bola di Anfield. Klub ini awalnya bernama Everton FC dan pada awalnya hanya bermain di level amatir.
+          </p>
+          <p>
+            Namun, pada tahun 1893, klub mengalami perpecahan dan John Houlding membentuk klub baru yang diberi nama Liverpool FC.
+          </p>
+          <p>
+            Liverpool FC berhasil meraih kesuksesan besar pada tahun 1960-an dan 1970-an di bawah manajer legendaris Bill Shankly. Pada periode ini, klub memenangkan tiga gelar Liga Inggris, dua Piala FA, dan satu Piala UEFA.
+          </p>
+        </article>
+
+        <article id="stadion" class="card">
+          <h2>Stadion Anfield</h2>
+          <img src="assets/image/anfield.webp" class="featured-image" alt="stadion" />
+          <p>
+            Anfield adalah nama stadion yang terletak di kota Liverpool, Inggris.
+            Kapasitas Stadion Anfield sebanyak 54.074 tempat duduk yang membuatnya menjadi stadion terbesar ketujuh di Inggris.
+            Stadion Anfield merupakan kandang bagi klub sepak bola Liverpool F.C. sejak klub didirikan pada tahun 1892. 
+            Stadion ini awalnya merupakan kandang dari klub Everton F.C. dari tahun 1884 hingga 1892 sebelum Everton pindah ke stadion Goodison Park setelah berselisih dengan pemilik klub.
+          </p>
+          <p>
+            Stadion ini memiliki empat tribun: Spion Kop, Tribun Utama, Tribun Sir Kenny Dalglish dan Anfield Road End.
+            Rekor kehadiran penonton sebanyak 61,905 diraih saat pertandingan antara Liverpool melawan Wolverhampton Wanderers pada tahun 1952.
+            Stadion ini berubah menjadi stadion tempat duduk pada tahun 1994 karena hasil Laporan Taylor, yang sekaligus mengurangi kapasitas stadion.
+          </p>
+        </article>
+      </div>
+
+      <div class="aside-container">
+        <aside>
+          <article class="profile card">
+            <header>
+              <h2>Profil Klub</h2>
+              <p>Liverpool FC</p>
+              <figure>
+                <img src="assets/image/Liverpool_Logo.jpg" />
+                <figcaption>Logo Klub</figcaption>
+              </figure>
+            </header>
+            <section>
+              <h3>Informasi Lainnya</h3>
+              <table>
+                <tr>
+                  <th>Nama Lengkap</th>
+                  <td>Liverpool Football Club</td>
+                </tr>
+                <tr>
+                  <th>Pemilik</th>
+                  <td>Fenway Sports Group</td>
+                </tr>
+                <tr>
+                  <th>Manajer</th>
+                  <td>Jürgen Klopp</td>
+                </tr>
+                <tr>
+                  <th>Liga</th>
+                  <td>Liga Utama Inggris</td>
+                </tr>
+              </table>
+            </section>
+          </article>
+        </aside>
+      </div>
+    </main>
+
+    <footer>
+      <p>Submission Belajar Dasar Pemrograman Web &#169; 2023 Mastuhin</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
